@@ -8733,7 +8733,7 @@ a.text-secondary:focus, a.text-secondary:hover {
 }
 
 a.text-success:focus, a.text-success:hover {
-  color: #2f8912 !important;
+  color: #008000!important;
 }
 
 .text-info {
