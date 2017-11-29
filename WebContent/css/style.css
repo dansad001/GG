@@ -1,0 +1,73 @@
+#sidebar {
+	width: 200px;
+	padding-left: 1px;
+}
+
+#head{
+    width: 100%;
+    background-image: url(img/home.jpg);
+    background-repeat: no-repeat;
+}
+
+
+
+/* =-=-=-=-=-=-=-[Menu One]-=-=-=-=-=-=-=- */
+	
+#menu {
+width:200px;
+}
+
+#menu ul {
+	margin: 1px;
+	padding: 1px;
+	list-style: none;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	display: block;
+	padding: 5px 15px;
+	border-bottom: 1px solid #FFFFFF;
+	text-decoration: none;
+	text-align:left;
+	color: #292d2e;
+}
+
+#menu a:hover {
+	background: #2d3132;
+	color: #FFFFFF;
+}
+
+#menu .active a {
+	background: #BABABA;
+	color: #000000;
+}
+a
+
+/* Boxed Style */
+
+.boxed {
+}
+
+.boxed .title {
+
+	display: block;
+	padding: 6px 15px;
+	background: #3B3B3B;
+	border-left: 1px;
+	border-top: 1px;
+	text-decoration: none;
+	font: bold .80em "tahoma";
+	color: #FFFFFF;
+}
+
+.boxed .content {
+	padding: 15px;
+}
+
+.boxed ul {
+	list-style: none;
+}
