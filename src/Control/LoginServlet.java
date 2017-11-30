@@ -83,7 +83,7 @@ public class LoginServlet extends HttpServlet {
 					}
 				}else {
 					
-					RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/web.html");
+					RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/rule.jsp");
 					if (dispatcher != null) {
 						dispatcher.forward(request, response);
 					}
