@@ -32,7 +32,7 @@ public class ConnectionManager {
 
 			String user = "root";
 
-			String psswd = "1234";
+			String psswd = "a58674391";
 
 			// สร้างการเชื่อมต่อฐานข้อมูล
 
