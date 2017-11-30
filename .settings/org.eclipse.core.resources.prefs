@@ -1,4 +1,6 @@
 eclipse.preferences.version=1
 encoding//WebContent/css/style.css=UTF-8
+encoding//WebContent/invalidLogin.jsp=UTF-8
+encoding//WebContent/rule.jsp=UTF-8
 encoding//src/Control/LoginServlet.java=UTF-8
 encoding//src/DB/ConnectionManager.java=UTF-8
