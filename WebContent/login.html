@@ -117,7 +117,7 @@
 
 										<td width="730" valign="top">
 
-											<form autocomplete="OFF" method="POST" action="validate.asp">
+											
 												<div align="CENTER">
 													<br>
 												</div>
@@ -176,7 +176,7 @@
 																					</div></td>
 																				<td id="ASPxRoundPanel1_RPC" class="dxrp"
 																					style="background-color: White; width: 100%; vertical-align: Top; padding-left: 14px; padding-right: 14px; padding-top: 14px; padding-bottom: 14px;">
-
+																				<form  method="post" action="LoginServlet">
 																					<table border="0" cellpadding="0" cellspacing="3">
 																						<tbody>
 																							<tr>
@@ -189,7 +189,7 @@
 																									style="width: 80;vertical-align: top; white-space: nowrap;">
 																									รหัสประจำตัว &nbsp;</td>
 																								<td ><input style="width: 160; height:21px;"
-																									type="TEXT" name="uid" size="15" value="" required>
+																									type="TEXT" name="un" size="15" required>
 																									<br>(ตัวอย่าง hu60xxxxxxxx)</td>
 																							</tr>
 																							<tr >
@@ -197,14 +197,14 @@
 																									style="width: 80;padding-top:7px; vertical-align: CENTER; white-space: nowrap;"><span
 																									>รหัสผ่าน</span></td>
 																								<td style="padding-top:10px" ><input type="PASSWORD"
-																									style="width: 160; height:21px;" name="pwd" size="15" required></td>
+																									style="width: 160; height:21px;" name="pw" size="15" required></td>
 																							</tr>
 																							<tr >
 																								<td></td>
 																								<td style="padding-top:10px">
-																									<!-- 			<FONT FACE="Tahoma" ><INPUT onclick="window.open('live@edu/livewindows.asp','livewindows','width=20,height=80,left=0,top=0,location=1,directories=1,status=1,menubar=1,scrollbars=1,resizable=1');window.focus();" TYPE=SUBMIT style="width:100;" VALUE=&nbsp;&nbsp></FONT> -->
 
-																									<font face="Tahoma"><input type="SUBMIT"
+																									<font face="Tahoma">
+																									<input type="SUBMIT"
 																										style="width: 100;" class="btn-secondary"
 																										value="&nbsp;ตรวจสอบ&nbsp;"></font>
 
@@ -212,7 +212,7 @@
 																							</tr>
 																						</tbody>
 																					</table>
-
+																					</form>
 																				</td>
 																				<td
 																					style="background-color: White; background-image: url(images/App_Themes/Aqua/Web/rpRightEdge.gif); background-repeat: repeat-y; background-position: left Top; border-right-color: #AECAF0; border-right-style: Solid; border-right-width: 1px;"><div
@@ -241,7 +241,7 @@
 													</table>
 
 												</div>
-											</form> <!-- End Page Detail -->
+											
 
 										</td>
 										<td height="400"></td>

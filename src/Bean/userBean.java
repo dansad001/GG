@@ -18,11 +18,11 @@ public String getUsername() {
 public void setUsername(String username) {
 	this.username = username;
 }
-public String getPassward() {
+public String getPassword() {
 	return password;
 }
-public void setPassward(String passward) {
-	this.password = passward;
+public void setPassword(String password) {
+	this.password = password;
 }
 public String getStatus() {
 	return status;
@@ -38,16 +38,14 @@ public void setName(String name) {
 }
 @Override
 public String toString() {
-	return "userBean [uid=" + uid + ", username=" + username + ", passward=" + password + ", status=" + status
-			+ ", name=" + name + ", getUid()=" + getUid() + ", getUsername()=" + getUsername() + ", getPassward()="
-			+ getPassward() + ", getStatus()=" + getStatus() + ", getName()=" + getName() + ", getClass()=" + getClass()
-			+ ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";
+	return "userBean [uid=" + uid + ", username=" + username + ", password=" + password + ", status=" + status
+			+ ", name=" + name + "]";
 }
-public userBean(int uid, String username, String passward, String status, String name) {
+public userBean(int uid, String username, String password, String status, String name) {
 	super();
 	this.uid = uid;
 	this.username = username;
-	this.password = passward;
+	this.password = password;
 	this.status = status;
 	this.name = name;
 }

@@ -11,9 +11,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import Model.Model;
-import Model.userBean;
+import Bean.userBean;
 import Service.LoginDAO;
+
+
 
 
 
@@ -50,11 +51,11 @@ public class LoginServlet extends HttpServlet {
 		response.setCharacterEncoding("UTF-8");
 		
 		try {
-			Model bean = new Model();
+			userBean bean = new userBean();
 
 			String userName = (String) request.getParameter("un");
 			String passworduser = (String) request.getParameter("pw");
-			Model userBean = LoginDAO.login(userName, passworduser);
+			userBean userBean = LoginDAO.login(userName, passworduser);
 			String page;
 			
 			if (userBean != null ) {
@@ -69,10 +70,10 @@ public class LoginServlet extends HttpServlet {
 				System.out.println(uid);
 
 				response.getWriter().append("Served at: ").append(request.getContextPath());
-				//1) เน€เธฃเธตเธขเธ�เน�เธ�เน�เธ�เธฒเธ� method โ€�getAllCategory()โ€�
+				//1) à¹€à¸™â‚¬à¹€à¸˜à¸ƒà¹€à¸˜à¸•à¹€à¸˜à¸‚à¹€à¸˜ï¿½à¹€à¸™ï¿½à¹€à¸˜ï¿½à¹€à¸™ï¿½à¹€à¸˜ï¿½à¹€à¸˜à¸’à¹€à¸˜ï¿½ method à¹‚â‚¬ï¿½getAllCategory()à¹‚â‚¬ï¿½
 				String Status = userBean.getStatus();
 				//request.setAttribute
-				//3) Forward เธ�เน�เธญเธกเธนเธฅเน�เธ�เธซเธ�เน�เธฒ JSP เธชเน�เธฒเธซเธฃเธฑเธ�เน�เธชเธ”เธ�เธ�เน�เธญเธกเธนเธฅเธ�เธฃเธฐเน€เธ เธ—เธชเธดเธ�เธ�เน�เธฒเธ—เธฑเน�เธ�เธซเธกเธ” [ categorylist.jsp ]
+				//3) Forward à¹€à¸˜ï¿½à¹€à¸™ï¿½à¹€à¸˜à¸�à¹€à¸˜à¸�à¹€à¸˜à¸™à¹€à¸˜à¸…à¹€à¸™ï¿½à¹€à¸˜ï¿½à¹€à¸˜à¸‹à¹€à¸˜ï¿½à¹€à¸™ï¿½à¹€à¸˜à¸’ JSP à¹€à¸˜à¸Šà¹€à¸™ï¿½à¹€à¸˜à¸’à¹€à¸˜à¸‹à¹€à¸˜à¸ƒà¹€à¸˜à¸‘à¹€à¸˜ï¿½à¹€à¸™ï¿½à¹€à¸˜à¸Šà¹€à¸˜â€�à¹€à¸˜ï¿½à¹€à¸˜ï¿½à¹€à¸™ï¿½à¹€à¸˜à¸�à¹€à¸˜à¸�à¹€à¸˜à¸™à¹€à¸˜à¸…à¹€à¸˜ï¿½à¹€à¸˜à¸ƒà¹€à¸˜à¸�à¹€à¸™â‚¬à¹€à¸˜Â à¹€à¸˜â€”à¹€à¸˜à¸Šà¹€à¸˜à¸”à¹€à¸˜ï¿½à¹€à¸˜ï¿½à¹€à¸™ï¿½à¹€à¸˜à¸’à¹€à¸˜â€”à¹€à¸˜à¸‘à¹€à¸™ï¿½à¹€à¸˜ï¿½à¹€à¸˜à¸‹à¹€à¸˜à¸�à¹€à¸˜â€� [ categorylist.jsp ]
 				if(Status.equals("admin")) {
 					
 
@@ -82,7 +83,7 @@ public class LoginServlet extends HttpServlet {
 					}
 				}else {
 					
-					RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/user.jsp");
+					RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/web.html");
 					if (dispatcher != null) {
 						dispatcher.forward(request, response);
 					}

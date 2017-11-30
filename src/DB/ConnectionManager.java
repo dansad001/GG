@@ -22,7 +22,7 @@ public class ConnectionManager {
 
 			// ระบุรายละเอียดของ เครื่อง พอร์ต ชื่อฐานข้อมูล
 
-			String url = "jdbc:mysql://localhost:3306/prapa";
+			String url = "jdbc:mysql://localhost:3306/hawkward";
 
 			// กําหนดให้มีการเข้ารหัสตัวอักษรแบบ UTF-8
 
