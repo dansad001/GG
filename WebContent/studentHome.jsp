@@ -8,9 +8,9 @@
     <title>Hogwarts School of Witchcraft and Wizardry</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="stylesheet" href="css/bootstrap.css" media="screen">
-    <link rel="stylesheet" href="css/custom.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/custom.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <!-- HTML5 shi and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="../bower_components/html5shiv/dist/html5shiv.js"></script>
@@ -129,15 +129,15 @@
 											<table border="0" cellspacing="2" cellpadding="0"
 												class="username">
 												<tbody>
-													<tr>
-														<td width="10"></td>
-														<td>5804101377 <b>: <font color="#000070">นายเมธาวี
+													<tr >
+														<td width="20"></td>
+														<!-- ============= ชื่อ นักศึกษา ============== -->
+														<td style="padding-top:10px">5804101377 <b>: <font color="#000070">นายเมธาวี
 																	ศรีวิไชย</font></b></td>
 													</tr>
 												</tbody>
 											</table>
-											<img src="images/common/line/horz_1.gif" width="437"
-											height="7"><br>
+											<hr >
 										<table border="0" class="normalDetail">
 												<tbody>
 													<tr>
