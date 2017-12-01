@@ -85,7 +85,7 @@
 										<td width="200px"
 											style="background-color: #e2e2e2; border-left: 1px solid black; border-right: 1px solid black">
 											<div id="title" class="boxed">
-												<h1 class="title">เมนูหลัก</h1>
+												<h1 style="margin-bottom: 0px;" class="title">เมนูหลัก</h1>
 											</div>
 											<div id="menu" class="style4">
 												<ul>

@@ -10,8 +10,16 @@
 }
 
 
+.pagename {
+    font-family: "tahoma";
+    font-size: 18px;
+    font-weight: bold;
+    color: #FF8000;
+}
 
-
+input[type="text"]{
+	width: 160; height:21px;
+}
 /* =-=-=-=-=-=-=-[Menu One]-=-=-=-=-=-=-=- */
 	
 #menu {
