@@ -241,12 +241,12 @@
 
 							<div style="clear: both"></div>
 
-							<table border="0" width="100%" height="50" bgcolor="#3B3B3B">
+							<table id="foot" border="0" width="100%" height="30" bgcolor="#3B3B3B" style="color:white;">
 								<tbody>
 									<tr>
-										<td align="center" width="200px" class="footertext">
+										<td align="center" width="200px" class="footertext"> &nbsp;&nbsp; งานทะเบียน Hogwarts
 											</td>
-										<td class="footertext">&nbsp;&nbsp;
+										<td class="footertext">&nbsp;&nbsp; Contact Staff : กลุ่มภารกิจทะเบียนเรียน  088-2691049
 											</td>
 										<td></td>
 										<td class="footertext" align="right"></td>

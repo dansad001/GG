@@ -20,8 +20,14 @@
 input[type="text"]{
 	width: 160; height:21px;
 }
+
+
+#foot{
+	font-size: 12px;
+    font-weight: bold;
+}
 /* =-=-=-=-=-=-=-[Menu One]-=-=-=-=-=-=-=- */
-	
+
 #menu {
 width:200px;
 }
