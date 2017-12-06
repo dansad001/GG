@@ -88,7 +88,7 @@
 											</div>
 											<div id="menu" class="style4">
 												<ul>
-													<li><a href="logout.asp?avs1052526022=4"><font
+													<li><a href="LogoutServlet"><font
 															color="#ff0000">ออกจากระบบ</font></a></li>
 													<li><a
 														href="http://reg.mju.ac.th/registrar/changepwd.asp?avs1052526022=4">เปลี่ยนรหัสผ่าน</a></li>
