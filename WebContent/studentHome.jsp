@@ -25,7 +25,7 @@
 
 	<div class="container">
 		<!-- page table start -->
-		<table border="0" cellspacing="0" cellpadding="0" width="930px"
+		<table border="0" cellspacing="0" cellpadding="0" width="100%"
 			bgcolor="#FFFFFF">
 			<tbody>
 				<tr>
@@ -72,15 +72,6 @@
 									<tr valign="TOP">
 
 
-
-										<script type="text/javascript">
-											//var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"style/popupmenu/SpryMenuBarDown.gif", imgRight:"style/popupmenu/SpryMenuBarRight.gif"});
-										</script>
-
-
-
-										<!-- Select Language -->
-
 										<!-- Begin Menu -->
 										<td width="200px"style="background-color: #e2e2e2; border-left: 1px solid black; border-right: 1px solid black">
 											<div id="title" class="boxed">
@@ -90,8 +81,7 @@
 												<ul>
 													<li><a href="LogoutServlet"><font
 															color="#ff0000">ออกจากระบบ</font></a></li>
-													<li><a
-														href="http://reg.mju.ac.th/registrar/changepwd.asp?avs1052526022=4">เปลี่ยนรหัสผ่าน</a></li>
+													<li><a href="changepwd.">เปลี่ยนรหัสผ่าน</a></li>
 													<li></li>
 													<li><a href="enroll_result.asp?" avs1052526022="4">ผลการลงทะเบียน</a></li>
 													<li><a href="time_table.asp?avs1052526022=4">ตารางเรียน/สอบ</a></li>
@@ -132,7 +122,7 @@
 													<tr >
 														<td width="20"></td>
 														<!-- ============= ชื่อ นักศึกษา ============== -->
-														<td style="padding-top:10px">5804101377 <b>: <font color="#000070">นายเมธาวี
+														<td style="padding-top:10px"><b>5804101377</b> <b>: <font color="#000070">นายเมธาวี
 																	ศรีวิไชย</font></b></td>
 													</tr>
 												</tbody>
@@ -142,7 +132,7 @@
 												<tbody>
 													<tr>
 														<td width="10"></td>
-														<td class="pageName"><b>ยินดีต้อนรับเข้าสู่ระบบบริการการศึกษา</b>&nbsp;<br>
+														<td class="pagename"><b>ยินดีต้อนรับเข้าสู่ระบบบริการการศึกษา</b>&nbsp;<br>
 														<br>
 														<br></td>
 													</tr>
