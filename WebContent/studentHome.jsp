@@ -82,26 +82,15 @@
 													<li><a href="LogoutServlet"><font
 															color="#ff0000">ออกจากระบบ</font></a></li>
 													<li><a href="changepwd.">เปลี่ยนรหัสผ่าน</a></li>
-													<li></li>
-													<li><a href="enroll_result.asp?" avs1052526022="4">ผลการลงทะเบียน</a></li>
+													<li><a href="">ลงทะเบียน</a></li>
+													<li><a href="enroll_result.asp?">ผลการลงทะเบียน</a></li>
 													<li><a href="time_table.asp?avs1052526022=4">ตารางเรียน/สอบ</a></li>
-
-
-													<li><a href="biblio.asp?avs1052526022=4">ประวัติผู้ใช้งานระบบ</a></li>
-													<li><a href="debt.asp?avs1052526022=4">ภาระค่าใช้จ่ายทุน</a></li>
 
 													<li><a href="grade.asp?avs1052526022=4">ผลการศึกษา</a></li>
 
-
-													<li><a href="graduate_check.asp?avs1052526022=4">ตรวจสอบจบ</a></li>
-
-
-
 													<li></li>
 
-													<li><a href="petition.asp?avs1052526022=4">เขียนคำร้อง</a></li>
-
-													<li><a href="suggestion.asp?avs1052526022=4">เสนอความคิดเห็น</a></li>
+													
 
 													<li><a href="studentByProgram.asp?avs1052526022=4">ทะเบียนรายชื่อ</a></li>
 													<li><a

@@ -27,7 +27,7 @@ table td {
 </style>
 </head>
 <body>
-	<form id="form1" name="form1">
+	<form id="form1" name="form1" >
 		<table width="800" border="0" align="center" cellpadding="0"
 			cellspacing="0">
 			<tbody>
@@ -101,11 +101,10 @@ table td {
 				</tr>
 				<tr>
 					<td align="center">
-					<form action="" method="">
-							<input name="okbtn" type="button" id="okbtn" value="รับทราบ" disabled="">
-						</form>
-					</td>
 					
+							<input name="okbtn" type="button" id="okbtn" value="รับทราบ" onclick="window.location='StdServlet';" disabled="">
+						
+					</td>
 				</tr>
 			</tbody>
 		</table>
