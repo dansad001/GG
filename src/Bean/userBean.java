@@ -5,6 +5,7 @@ int uid;
 String username;
 String password;
 String status;
+String stdid;
 String name;
 public int getUid() {
 	return uid;
@@ -30,6 +31,12 @@ public String getStatus() {
 public void setStatus(String status) {
 	this.status = status;
 }
+public String getStdid() {
+	return stdid;
+}
+public void setStdid(String stdid) {
+	this.stdid = stdid;
+}
 public String getName() {
 	return name;
 }
@@ -39,19 +46,21 @@ public void setName(String name) {
 @Override
 public String toString() {
 	return "userBean [uid=" + uid + ", username=" + username + ", password=" + password + ", status=" + status
-			+ ", name=" + name + "]";
+			+ ", stdid=" + stdid + ", name=" + name + "]";
 }
-public userBean(int uid, String username, String password, String status, String name) {
+public userBean(int uid, String username, String password, String status, String stdid, String name) {
 	super();
 	this.uid = uid;
 	this.username = username;
 	this.password = password;
 	this.status = status;
+	this.stdid = stdid;
 	this.name = name;
 }
 public userBean() {
 	super();
 	// TODO Auto-generated constructor stub
 }
+
 
 }

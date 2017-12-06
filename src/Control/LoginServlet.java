@@ -64,10 +64,14 @@ public class LoginServlet extends HttpServlet {
 				session.setAttribute("currentUser", userBean);
 
 				String name= userBean.getName();
+				session.setAttribute("name", name);
 				request.setAttribute("name", name);
 				int uid = userBean.getUid();
+				session.setAttribute("uid", uid);
 				request.setAttribute("uid", uid);
 				System.out.println(uid);
+				String stdid= userBean.getStdid();
+				session.setAttribute("stdid", stdid);
 
 				response.getWriter().append("Served at: ").append(request.getContextPath());
 				//1) à¹€à¸™â‚¬à¹€à¸˜à¸ƒà¹€à¸˜à¸•à¹€à¸˜à¸‚à¹€à¸˜ï¿½à¹€à¸™ï¿½à¹€à¸˜ï¿½à¹€à¸™ï¿½à¹€à¸˜ï¿½à¹€à¸˜à¸’à¹€à¸˜ï¿½ method à¹‚â‚¬ï¿½getAllCategory()à¹‚â‚¬ï¿½

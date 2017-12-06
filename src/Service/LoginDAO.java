@@ -43,6 +43,7 @@ public class LoginDAO {
 				String Username = rs.getString("username");
 				String Name = rs.getString("name");
 				String Status = rs.getString("status");
+				String Stdid = rs.getString("stdid");
 				
 		
 		
@@ -62,6 +63,7 @@ public class LoginDAO {
 				userBean.setName(Name);
 				userBean.setUsername(Username);
 				userBean.setStatus(Status);
+				userBean.setStdid(Stdid);
 			}
 
 		} catch (Exception e) {

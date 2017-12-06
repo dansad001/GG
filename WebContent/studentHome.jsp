@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=utf-8"
     pageEncoding="utf-8"%>
+<%@page language="java" session="true" %>
+<%@ page import="Bean.userBean" %>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -111,12 +113,12 @@
 													<tr >
 														<td width="20"></td>
 														<!-- ============= ชื่อ นักศึกษา ============== -->
-														<td style="padding-top:10px"><b>5804101377</b> <b>: <font color="#000070">นายเมธาวี
-																	ศรีวิไชย</font></b></td>
+														<td style="padding-top:5px"><b><%=session.getAttribute("stdid")%></b> <b>: <font color="#000070">
+														<%=session.getAttribute("name")%></font></b></td>
 													</tr>
 												</tbody>
 											</table>
-											<hr >
+											<hr style="margin-top:5px;border-top: 1px solid #8c8b8b; margin-left:15px;width:70%">
 										<table border="0" class="normalDetail">
 												<tbody>
 													<tr>
