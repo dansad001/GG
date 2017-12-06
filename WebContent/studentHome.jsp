@@ -194,7 +194,7 @@
 
 							<div style="clear: both"></div>
 
-							<table border="0" width="1020px" height="50" bgcolor="#3B3B3B">
+							<table border="0" width="100%" height="50" bgcolor="#3B3B3B">
 								<tbody>
 									<tr>
 										<td align="center" width="200px" class="footertext">
