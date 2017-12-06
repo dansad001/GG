@@ -81,7 +81,7 @@
 											</div>
 											<div id="menu" class="style4">
 												<ul>
-													<li><a href="LogoutServlet"><font
+													<li><a href="LogoutServlet?logout=value"><font
 															color="#ff0000">ออกจากระบบ</font></a></li>
 													<li><a href="changepwd.">เปลี่ยนรหัสผ่าน</a></li>
 													<li><a href="">ลงทะเบียน</a></li>
@@ -207,11 +207,12 @@
 
 
 	</div>
-
-
+	
 	<script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/custom.js"></script>
+    <script src="js/logout.js"></script>
+    
   </body>
 </html>

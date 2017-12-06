@@ -35,18 +35,30 @@ public class LogoutServlet extends HttpServlet {
 		// TODO Auto-generated method stub
 		HttpSession session = request.getSession();
 		userBean userBean = (userBean)session.getAttribute("currentUser");
+		 
 		
-		if(userBean != null){
+		
+		if(request.getParameter("logout") != null){
 			session.invalidate();
+			RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/index.html");
+
+			if (dispatcher != null) {
+
+				dispatcher.forward(request, response);
+
+			}
+		}else {
+			session.invalidate();
+			RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/need_auth.html");
+
+			if (dispatcher != null) {
+
+				dispatcher.forward(request, response);
+
+			}
 		}
 		
-		RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/index.html");
-
-		if (dispatcher != null) {
-
-			dispatcher.forward(request, response);
-
-		}
+		
 	}
 
 	/**
