@@ -207,7 +207,19 @@
 
 
 	</div>
+	<%
+	userBean userBean = (userBean)session.getAttribute("currentUser");
+	if(userBean == null){
+		RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/need_auth.html");
+
+		if (dispatcher != null) {
+
+			dispatcher.forward(request, response);
+
+		}
+	}
 	
+	%>
 	<script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
